@@ -80,13 +80,13 @@ export const TextStyles = {
     },
   },
   Subtitle: {
-    Subtitle1: {
+    Subtitle: {
       FontSize: "1.8rem",
       LineHeight: "2.8rem",
       LetterSpacing: "0",
       FontWeight: "700",
     },
-    Subtitle2: {
+    SubtitleMedium: {
       FontSize: "1.8rem",
       LineHeight: "2.8rem",
       LetterSpacing: "0",
