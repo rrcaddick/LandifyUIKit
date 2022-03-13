@@ -94,13 +94,13 @@ export const TextStyles = {
     },
   },
   Lead: {
-    Lead1: {
+    Lead: {
       FontSize: "1.8rem",
       LineHeight: "3.2rem",
       LetterSpacing: "0",
       FontWeight: "400",
     },
-    Lead2: {
+    LeadSm: {
       FontSize: "1.4rem",
       LineHeight: "2.4rem",
       LetterSpacing: "0",
