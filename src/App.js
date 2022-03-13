@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import LinkLabelIcon from "./assets/components/styled/LinkLabelIcon.styled";
+import Body from "./assets/components/styled/Body.styled";
 
 const AppEl = styled.div`
   display: flex;
@@ -11,9 +11,7 @@ const AppEl = styled.div`
 function App() {
   return (
     <AppEl>
-      <LinkLabelIcon size="sm">Get Started</LinkLabelIcon>
-      <LinkLabelIcon>Get Started</LinkLabelIcon>
-      <LinkLabelIcon size="lg">Get Started</LinkLabelIcon>
+      <Body size="md">This is the normal body</Body>
     </AppEl>
   );
 }

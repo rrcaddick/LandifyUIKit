@@ -108,13 +108,13 @@ export const TextStyles = {
     },
   },
   Body: {
-    Body1: {
+    Body: {
       FontSize: "1.6rem",
       LineHeight: "2.6rem",
       LetterSpacing: "0",
       FontWeight: "400",
     },
-    Body2: {
+    BodySm: {
       FontSize: "1.4rem",
       LineHeight: "2.2rem",
       LetterSpacing: "0",
