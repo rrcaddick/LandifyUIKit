@@ -17,13 +17,11 @@ const LeftPart = styled.span`
   display: flex;
   align-items: center;
   column-gap: 3.2rem;
-  margin-left: 16.5rem;
 `;
 const RightPart = styled.span`
   display: flex;
   align-items: center;
   column-gap: 4.8rem;
-  margin-right: 16.5rem;
 `;
 
 const LogoContainer = styled.a`
