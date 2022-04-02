@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Hero3 from "./assets/components/Hero/Hero3";
+import Hero1 from "./assets/components/Hero/Hero1";
 
 const AppEl = styled.div`
   display: flex;
@@ -10,7 +11,8 @@ const AppEl = styled.div`
 function App() {
   return (
     <AppEl>
-      <Hero3 />
+      <Hero1 />
+      {/* <Hero3 /> */}
     </AppEl>
   );
 }
