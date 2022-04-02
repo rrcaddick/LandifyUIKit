@@ -17,7 +17,6 @@ const LeftPart = styled.span`
   display: flex;
   align-items: center;
   column-gap: 3.2rem;
-  margin-left: 16.5rem;
 `;
 
 const Middle = styled.span``;
@@ -26,7 +25,6 @@ const RightPart = styled.span`
   display: flex;
   align-items: center;
   column-gap: 1.2rem;
-  margin-right: 16.5rem;
 `;
 
 const LogoContainer = styled.a`
@@ -65,10 +63,10 @@ const Header4 = () => {
         </LogoContainer>
       </Middle>
       <RightPart>
-        <Icon icon="instagram" styleType="gray" />
-        <Icon icon="dribble" styleType="gray" />
-        <Icon icon="twitter" styleType="gray" />
-        <Icon icon="youtube" styleType="gray" />
+        <Icon icon="instagram" styleType="white" />
+        <Icon icon="dribble" styleType="white" />
+        <Icon icon="twitter" styleType="white" />
+        <Icon icon="youtube" styleType="white" />
       </RightPart>
     </HeaderEl>
   );
