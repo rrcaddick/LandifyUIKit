@@ -21,6 +21,13 @@ const GlobalStyles = createGlobalStyle`
     body {
       font-size: 1.6rem;
     }
+    a{
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: #070710;
+}
 `;
 
 ReactDOM.render(

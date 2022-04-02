@@ -8,13 +8,6 @@ const Button = styled.button`
   border-radius: 0.6rem;
   cursor: pointer;
 
-  /* background-color: ${Colors.Brand.Purple100};
-  color: ${Colors.Brand.Purple};
-  :hover {
-    background-color: ${Colors.Brand.Purple800};
-    color: ${Colors.Default.White};
-  } */
-
   ${(props) => {
     switch (props.styleType) {
       case "secondary":
@@ -54,7 +47,7 @@ const Button = styled.button`
       case "lg":
         return `${TextStyles.Bundler(TextStyles.Label.Large)} padding: 1.2rem 3.2rem;`;
       default:
-        return `${TextStyles.Bundler(TextStyles.Label.Large)} padding: 1rem 2rem;`;
+        return `${TextStyles.Bundler(TextStyles.Label.Medium)} padding: 1rem 2rem;`;
     }
   }};
 `;
