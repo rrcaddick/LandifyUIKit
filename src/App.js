@@ -6,6 +6,7 @@ import Hero4 from "./assets/components/Hero/Hero4";
 import Hero5 from "./assets/components/Hero/Hero5";
 import Hero6 from "./assets/components/Hero/Hero6";
 import Hero7 from "./assets/components/Hero/Hero7";
+import LogoCloud1 from "./assets/components/LogoCloud/LogoCloud1";
 
 const AppEl = styled.div`
   display: flex;
@@ -17,12 +18,13 @@ function App() {
   return (
     <AppEl>
       {/* <Hero1 />
-      <Hero2 />
+      <Hero2 /> */}
       <Hero3 />
-      <Hero4 />
+      {/* <Hero4 />
       <Hero5 />
-      <Hero6 /> */}
-      <Hero7 />
+      <Hero6 />
+      <Hero7 /> */}
+      <LogoCloud1 />
     </AppEl>
   );
 }
