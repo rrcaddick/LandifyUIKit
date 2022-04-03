@@ -21,7 +21,6 @@ const HeroEl = styled.section`
 const Content = styled.div`
   display: flex;
   justify-content: space-between;
-  perspective: 50rem;
   gap: 4.4rem;
 `;
 

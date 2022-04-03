@@ -1,10 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import Header5 from "../Header/Header5";
+import Header7 from "../Header/Header7";
 import H1 from "../styled/H1.styled";
 import Lead from "../styled/Lead.styled";
 import Button from "../styled/Button.styled";
-import HeroImage from "../../images/HeroImage5.svg";
+import Img from "../styled/Img.styled";
+import HeroImage from "../../images/Hero7Image.svg";
 
 const HeroEl = styled.section`
   position: relative;
@@ -14,10 +15,6 @@ const HeroEl = styled.section`
   row-gap: 15rem;
   width: 100%;
   overflow: hidden;
-  background-image: url(${HeroImage});
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
 `;
 
 const Content = styled.div`
@@ -27,7 +24,6 @@ const Content = styled.div`
 `;
 
 const ContentText = styled.div`
-  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -46,7 +42,7 @@ const Description = styled(Lead)`
 const Hero5 = () => {
   return (
     <HeroEl>
-      <Header5 />
+      <Header7 />
       <Content>
         <ContentText>
           <Title>Landing page UI kit</Title>
@@ -55,6 +51,9 @@ const Hero5 = () => {
           </Description>
           <Button size="lg">Get Started</Button>
         </ContentText>
+        <div>
+          <Img src={HeroImage} />
+        </div>
       </Content>
     </HeroEl>
   );
