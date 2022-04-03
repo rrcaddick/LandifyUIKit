@@ -17,18 +17,16 @@ const StyledLogoCloud = styled.section`
   row-gap: 4rem;
 `;
 
-const StyledLogoCloudText = styled(H2)``;
-
 const StyledLogoContainer = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-around;
 `;
 
-const LogoCloud1 = () => {
+const LogoCloud2 = () => {
   return (
     <StyledLogoCloud>
-      <StyledLogoCloudText>Trusted by our beloved clients</StyledLogoCloudText>
+      <H2>Trusted by our beloved clients</H2>
       <StyledLogoContainer>
         <Img src={AirbnbLogo} />
         <Img src={HubspotLogo} />
@@ -41,4 +39,4 @@ const LogoCloud1 = () => {
   );
 };
 
-export default LogoCloud1;
+export default LogoCloud2;
