@@ -4,6 +4,7 @@ import Hero2 from "./assets/components/Hero/Hero2";
 import Hero3 from "./assets/components/Hero/Hero3";
 import Hero4 from "./assets/components/Hero/Hero4";
 import Hero5 from "./assets/components/Hero/Hero5";
+import Hero6 from "./assets/components/Hero/Hero6";
 
 const AppEl = styled.div`
   display: flex;
@@ -18,7 +19,8 @@ function App() {
       {/* <Hero2 /> */}
       {/* <Hero3 /> */}
       {/* <Hero4 /> */}
-      <Hero5 />
+      {/* <Hero5 /> */}
+      <Hero6 />
     </AppEl>
   );
 }
