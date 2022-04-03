@@ -11,6 +11,7 @@ import LogoCloud2 from "./assets/components/LogoCloud/LogoCloud2";
 import LogoCloud3 from "./assets/components/LogoCloud/LogoCloud3";
 import LogoCloud4 from "./assets/components/LogoCloud/LogoCloud4";
 import LogoCloud5 from "./assets/components/LogoCloud/LogoCloud5";
+import LogoCloud6 from "./assets/components/LogoCloud/LogoCloud6";
 
 const AppEl = styled.div`
   display: flex;
@@ -32,7 +33,8 @@ function App() {
       {/* <LogoCloud2 /> */}
       {/* <LogoCloud3 /> */}
       {/* <LogoCloud4 /> */}
-      <LogoCloud5 />
+      {/* <LogoCloud5 /> */}
+      <LogoCloud6 />
     </AppEl>
   );
 }

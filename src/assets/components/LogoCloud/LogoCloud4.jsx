@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import Img from "../styled/Img.styled";
 import AirbnbLogo from "../../images/AirbnbLogo.svg";
-import HubspotLogo from "../../images/HubspotLogo.svg";
 import GoogleLogo from "../../images/GoogleLogo.svg";
 import MicrosoftLogo from "../../images/MicrosoftLogo.svg";
 import WalmartLogo from "../../images/WalmartLogo.svg";
@@ -12,7 +11,6 @@ import OlaLogo from "../../images/OlaLogo.svg";
 import AmazonLogo from "../../images/AmazonLogo.svg";
 import H2 from "../styled/H2.styled";
 import Lead from "../styled/Lead.styled";
-import { faAmazon } from "@fortawesome/free-brands-svg-icons";
 
 const StyledLogoCloud = styled.section`
   display: flex;
