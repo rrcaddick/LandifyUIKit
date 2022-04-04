@@ -14,6 +14,7 @@ import LogoCloud5 from "./assets/components/LogoCloud/LogoCloud5";
 import LogoCloud6 from "./assets/components/LogoCloud/LogoCloud6";
 import LogoCloud7 from "./assets/components/LogoCloud/LogoCloud7";
 import FeatureMultiple1 from "./assets/components/Feature/Multiple/FeatureMultiple1";
+import FeatureMultiple2 from "./assets/components/Feature/Multiple/FeatureMultiple2";
 import FeatureMultiple5 from "./assets/components/Feature/Multiple/FeatureMultiple5";
 
 const AppEl = styled.div`
@@ -39,7 +40,8 @@ function App() {
       {/* <LogoCloud5 /> */}
       {/* <LogoCloud6 /> */}
       {/* <LogoCloud7 /> */}
-      <FeatureMultiple1 />
+      {/* <FeatureMultiple1 /> */}
+      <FeatureMultiple2 />
       {/* <FeatureMultiple5 /> */}
     </AppEl>
   );
