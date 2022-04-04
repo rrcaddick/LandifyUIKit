@@ -23,7 +23,7 @@ const IconContainer = styled.div`
 
 const FeatureText = styled.div``;
 
-const FeatureItem2 = ({ icon, heading, description }) => {
+const FeatureItem7 = ({ icon, heading, description }) => {
   return (
     <FeatureItem>
       <IconContainer>
@@ -37,4 +37,4 @@ const FeatureItem2 = ({ icon, heading, description }) => {
   );
 };
 
-export default FeatureItem2;
+export default FeatureItem7;

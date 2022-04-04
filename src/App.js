@@ -18,6 +18,8 @@ import FeatureMultiple2 from "./assets/components/Feature/Multiple/FeatureMultip
 import FeatureMultiple3 from "./assets/components/Feature/Multiple/FeatureMultiple3";
 import FeatureMultiple4 from "./assets/components/Feature/Multiple/FeatureMultiple4";
 import FeatureMultiple5 from "./assets/components/Feature/Multiple/FeatureMultiple5";
+import FeatureMultiple6 from "./assets/components/Feature/Multiple/FeatureMultiple6";
+import FeatureMultiple7 from "./assets/components/Feature/Multiple/FeatureMultiple7";
 
 const AppEl = styled.div`
   display: flex;
@@ -45,8 +47,10 @@ function App() {
       {/* <FeatureMultiple1 /> */}
       {/* <FeatureMultiple2 /> */}
       {/* <FeatureMultiple3 /> */}
-      <FeatureMultiple4 />
+      {/* <FeatureMultiple4 /> */}
       {/* <FeatureMultiple5 /> */}
+      {/* <FeatureMultiple6 /> */}
+      <FeatureMultiple7 />
     </AppEl>
   );
 }

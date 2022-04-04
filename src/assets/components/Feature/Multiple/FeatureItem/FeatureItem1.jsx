@@ -15,7 +15,7 @@ const StyledImg = styled(Img)`
   border-radius: 0.4rem;
 `;
 
-const FeatureItem5 = ({ image, description }) => {
+const FeatureItem1 = ({ image, description }) => {
   return (
     <FeatureItem>
       <StyledImg src={image} />
@@ -24,4 +24,4 @@ const FeatureItem5 = ({ image, description }) => {
   );
 };
 
-export default FeatureItem5;
+export default FeatureItem1;
