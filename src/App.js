@@ -20,6 +20,8 @@ import FeatureMultiple4 from "./assets/components/Feature/Multiple/FeatureMultip
 import FeatureMultiple5 from "./assets/components/Feature/Multiple/FeatureMultiple5";
 import FeatureMultiple6 from "./assets/components/Feature/Multiple/FeatureMultiple6";
 import FeatureMultiple7 from "./assets/components/Feature/Multiple/FeatureMultiple7";
+import Testimonial1 from "./assets/components/Testimonials/Testimonial1";
+import Testimonial2 from "./assets/components/Testimonials/Testimonial2";
 import Testimonial7 from "./assets/components/Testimonials/Testimonial7";
 
 const AppEl = styled.div`
@@ -31,8 +33,8 @@ const AppEl = styled.div`
 function App() {
   return (
     <AppEl>
-      {/* <Hero1 />
-      <Hero2 /> */}
+      {/* <Hero1 /> */}
+      {/* <Hero2 /> */}
       <Hero3 />
       {/* <Hero4 /> */}
       {/* <Hero5 /> */}
@@ -52,7 +54,9 @@ function App() {
       <FeatureMultiple5 />
       {/* <FeatureMultiple6 /> */}
       {/* <FeatureMultiple7 /> */}
-      <Testimonial7 />
+      {/* <Testimonial1 /> */}
+      <Testimonial2 />
+      {/* <Testimonial7 /> */}
     </AppEl>
   );
 }
