@@ -1,64 +1,61 @@
 import React from "react";
 import styled from "styled-components";
-import StatsIcon1 from "../../images/icons/01.svg";
-import StatsIcon2 from "../../images/icons/02.svg";
-import StatsIcon3 from "../../images/icons/03.svg";
-import StatsIcon4 from "../../images/icons/04.svg";
+import H2 from "../styled/H2.styled";
+import Lead from "../styled/Lead.styled";
+import { Colors } from "../../Theme";
 import StatsItem1 from "./StatsItem/StatsItem1";
-import { Colors, Shadows } from "../../Theme";
 
 const DUMMY_STATS = [
   {
-    id: "s4",
-    icon: StatsIcon1,
-    heading: "40+",
-    details: "Happy Clients",
+    id: "s1",
+    heading: "5",
+    details: "Service Geographics",
   },
   {
     id: "s2",
-    icon: StatsIcon2,
-    heading: "540+",
-    details: "Projects Completed",
+    heading: "30",
+    details: "Fortune 500 Clients",
   },
   {
     id: "s3",
-    icon: StatsIcon3,
     heading: "300",
     details: "Dedicated Members",
   },
   {
     id: "s4",
-    icon: StatsIcon4,
-    heading: "25+",
-    details: "Awards Won",
+    heading: "8",
+    details: "Years of Journey",
   },
 ];
 
 const Stats = styled.section`
-  padding: 8rem 16.5rem;
-  background: linear-gradient(
-    to bottom,
-    ${Colors.Brand.Purple} 0%,
-    ${Colors.Brand.Purple} 50%,
-    ${Colors.Default.White} 51%,
-    ${Colors.Default.White} 100%
-  );
+  padding: 6.4rem 16.5rem;
+  background-color: ${Colors.Brand.Purple};
+  color: ${Colors.Default.White};
+`;
+
+const StatsHeading = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.8rem;
+  text-align: center;
+  margin-bottom: 4.8rem;
 `;
 
 const StatsItems = styled.div`
   display: flex;
-  column-gap: 3rem;
   justify-items: center;
   align-items: center;
-  padding: 3.2rem 0;
-  background-color: ${Colors.Default.White};
-  border-radius: 0.8rem;
-  box-shadow: ${Shadows.MobileMockup};
 `;
 
 const Stats1 = () => {
   return (
     <Stats>
+      <StatsHeading>
+        <H2>Some count that matters</H2>
+        <Lead>Our achievement in the journey depicted in numbers</Lead>
+      </StatsHeading>
       <StatsItems>
         {DUMMY_STATS.map((statsItem) => (
           <StatsItem1 key={statsItem.id} {...statsItem} />
