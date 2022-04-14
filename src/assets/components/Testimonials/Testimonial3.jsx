@@ -129,7 +129,7 @@ const SlideControl = styled.span`
   }}
 `;
 
-const Testimonial1 = () => {
+const Testimonial3 = () => {
   const [slideIndex, setSlideIndex] = useState(0);
   let slideInterval = useRef();
   useEffect(() => {
@@ -172,4 +172,4 @@ const Testimonial1 = () => {
   );
 };
 
-export default Testimonial1;
+export default Testimonial3;

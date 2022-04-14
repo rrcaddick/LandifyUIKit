@@ -51,7 +51,7 @@ const TestimonialText = styled.div`
   }
 `;
 
-const Testimonial7 = () => {
+const Testimonial2 = () => {
   return (
     <Testimonial>
       <TestimonialImage>
@@ -73,4 +73,4 @@ const Testimonial7 = () => {
   );
 };
 
-export default Testimonial7;
+export default Testimonial2;
