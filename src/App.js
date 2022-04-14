@@ -27,6 +27,7 @@ import Testimonial4 from "./assets/components/Testimonials/Testimonial4";
 import Testimonial5 from "./assets/components/Testimonials/Testimonial5";
 import Testimonial6 from "./assets/components/Testimonials/Testimonial6";
 import Testimonial7 from "./assets/components/Testimonials/Testimonial7";
+import Stats1 from "./assets/components/Stats/Stats1";
 import Stats6 from "./assets/components/Stats/Stats6";
 
 const AppEl = styled.div`
@@ -66,7 +67,8 @@ function App() {
       {/* <Testimonial5 /> */}
       {/* <Testimonial6 /> */}
       <Testimonial7 />
-      <Stats6 />
+      <Stats1 />
+      {/* <Stats6 /> */}
     </AppEl>
   );
 }
