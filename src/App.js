@@ -23,6 +23,8 @@ import FeatureMultiple7 from "./assets/components/Feature/Multiple/FeatureMultip
 import Testimonial1 from "./assets/components/Testimonials/Testimonial1";
 import Testimonial2 from "./assets/components/Testimonials/Testimonial2";
 import Testimonial3 from "./assets/components/Testimonials/Testimonial3";
+import Testimonial4 from "./assets/components/Testimonials/Testimonial4";
+import Testimonial5 from "./assets/components/Testimonials/Testimonial5";
 import Testimonial7 from "./assets/components/Testimonials/Testimonial7";
 
 const AppEl = styled.div`
@@ -57,7 +59,9 @@ function App() {
       {/* <FeatureMultiple7 /> */}
       {/* <Testimonial1 /> */}
       {/* <Testimonial2 /> */}
-      <Testimonial3 />
+      {/* <Testimonial3 /> */}
+      {/* <Testimonial4 /> */}
+      <Testimonial5 />
       {/* <Testimonial7 /> */}
     </AppEl>
   );
