@@ -31,6 +31,7 @@ import Stats1 from "./assets/components/Stats/Stats1";
 import Stats2 from "./assets/components/Stats/Stats2";
 import Stats6 from "./assets/components/Stats/Stats6";
 import Stats7 from "./assets/components/Stats/Stats7";
+import FeatureSingle5 from "./assets/components/Feature/Single/FeatureSingle5";
 
 const AppEl = styled.div`
   display: flex;
@@ -71,8 +72,9 @@ function App() {
       <Testimonial7 />
       {/* <Stats1 /> */}
       {/* <Stats2 /> */}
-      {/* <Stats6 /> */}
-      <Stats7 />
+      <Stats6 />
+      {/* <Stats7 /> */}
+      <FeatureSingle5 />
     </AppEl>
   );
 }

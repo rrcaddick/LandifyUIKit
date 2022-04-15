@@ -10,7 +10,7 @@ import StatsItem6 from "./StatsItem/StatsItem6";
 
 const DUMMY_STATS = [
   {
-    id: "s4",
+    id: "s1",
     icon: StatsIcon1,
     heading: "10,000+",
     details: "Downloads per day",
