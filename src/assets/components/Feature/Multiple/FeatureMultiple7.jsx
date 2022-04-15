@@ -5,8 +5,6 @@ import Img from "../../styled/Img.styled";
 import FeatureItem7 from "./FeatureItem/FeatureItem7";
 import PhoneMockup from "../../../images/PhoneMockup.svg";
 import FeatureIcon1 from "../../../images/icons/01.svg";
-import FeatureIcon2 from "../../../images/icons/02.svg";
-import FeatureIcon3 from "../../../images/icons/03.svg";
 import FeatureIcon4 from "../../../images/icons/04.svg";
 import FeatureIcon6 from "../../../images/icons/06.svg";
 import FeatureIcon7 from "../../../images/icons/07.svg";
