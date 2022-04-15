@@ -36,6 +36,7 @@ import FeatureSingle2 from "./assets/components/Feature/Single/FeatureSingle2";
 import FeatureSingle3 from "./assets/components/Feature/Single/FeatureSingle3";
 import FeatureSingle4 from "./assets/components/Feature/Single/FeatureSingle4";
 import FeatureSingle5 from "./assets/components/Feature/Single/FeatureSingle5";
+import FeatureSingle6 from "./assets/components/Feature/Single/FeatureSingle6";
 
 const AppEl = styled.div`
   display: flex;
@@ -81,8 +82,9 @@ function App() {
       {/* <FeatureSingle1 /> */}
       {/* <FeatureSingle2 /> */}
       {/* <FeatureSingle3 /> */}
-      <FeatureSingle4 />
-      {/* <FeatureSingle5 /> */}
+      {/* <FeatureSingle4 /> */}
+      <FeatureSingle5 />
+      <FeatureSingle6 />
     </AppEl>
   );
 }
