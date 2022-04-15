@@ -28,7 +28,9 @@ import Testimonial5 from "./assets/components/Testimonials/Testimonial5";
 import Testimonial6 from "./assets/components/Testimonials/Testimonial6";
 import Testimonial7 from "./assets/components/Testimonials/Testimonial7";
 import Stats1 from "./assets/components/Stats/Stats1";
+import Stats2 from "./assets/components/Stats/Stats2";
 import Stats6 from "./assets/components/Stats/Stats6";
+import Stats7 from "./assets/components/Stats/Stats7";
 
 const AppEl = styled.div`
   display: flex;
@@ -67,8 +69,10 @@ function App() {
       {/* <Testimonial5 /> */}
       {/* <Testimonial6 /> */}
       <Testimonial7 />
-      <Stats1 />
+      {/* <Stats1 /> */}
+      {/* <Stats2 /> */}
       {/* <Stats6 /> */}
+      <Stats7 />
     </AppEl>
   );
 }
