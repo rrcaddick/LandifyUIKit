@@ -23,6 +23,9 @@ const LinkLabelIconEl = styled.a`
   > img {
     margin-left: 0.8rem;
   }
+  :visited {
+    color: ${Colors.Brand.Purple};
+  }
 `;
 
 const LinkLabelIcon = ({ children, size, icon = "true", ...linkProps }) => {

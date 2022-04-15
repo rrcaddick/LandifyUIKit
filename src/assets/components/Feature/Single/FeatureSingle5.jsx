@@ -48,7 +48,7 @@ const FeatureSingle5 = () => {
           cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non. Non commodo
           volutpat, pharetra, vel.
         </Lead>
-        <LinkLabelIcon>Get Started</LinkLabelIcon>
+        <LinkLabelIcon href="#">Get Started</LinkLabelIcon>
       </FeatureContent>
     </Feature>
   );

@@ -37,6 +37,7 @@ import FeatureSingle3 from "./assets/components/Feature/Single/FeatureSingle3";
 import FeatureSingle4 from "./assets/components/Feature/Single/FeatureSingle4";
 import FeatureSingle5 from "./assets/components/Feature/Single/FeatureSingle5";
 import FeatureSingle6 from "./assets/components/Feature/Single/FeatureSingle6";
+import ProjectMultiple1 from "./assets/components/Project/Multiple/ProjectMultiple1";
 
 const AppEl = styled.div`
   display: flex;
@@ -85,6 +86,7 @@ function App() {
       {/* <FeatureSingle4 /> */}
       <FeatureSingle5 />
       <FeatureSingle6 />
+      <ProjectMultiple1 />
     </AppEl>
   );
 }
